@@ -1,0 +1,52 @@
+.drop-file-input {
+  @apply relative w-1/2 h-96 border-2 border-dashed border-upload dark:border-white rounded-lg flex items-center justify-center;
+}
+
+.drop-file-input:hover,
+.drop-file-input.dragover {
+  @apply opacity-60;
+}
+
+.drop-file-input input {
+  @apply opacity-0 absolute inset-0 w-full h-full cursor-pointer;
+}
+
+.drop-file-input__label {
+  @apply text-center font-semibold p-2;
+}
+
+.drop-file-input__label img {
+  @apply w-24;
+}
+
+.drop-file-preview {
+  @apply mt-8 border shadow-md shadow-shadow-purple dark:border dark:border-main-purple dark:shadow-main-purple dark:shadow px-4 py-2 rounded;
+}
+
+.drop-file-preview p {
+  @apply font-semibold;
+}
+
+.drop-file-preview__title {
+  @apply mb-5;
+}
+
+.drop-file-preview__item {
+  @apply relative flex mb-2 p-4 rounded-lg;
+}
+
+.drop-file-preview__item img {
+  @apply w-12 mr-5;
+}
+
+.drop-file-preview__item__info {
+  @apply flex flex-col justify-between;
+}
+
+.drop-file-preview__item__del {
+  @apply dark:text-main-table  shadow-shadow-purple bg-white w-10 h-10 rounded-full flex items-center justify-center absolute right-2 top-1/2 transform-gpu -translate-y-1/2 shadow cursor-pointer opacity-0 transition-opacity duration-300;
+}
+
+.drop-file-preview__item:hover .drop-file-preview__item__del {
+  @apply opacity-100;
+}

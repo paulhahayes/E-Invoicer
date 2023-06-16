@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+  
+  
+  <cbc:CustomizationID>urn:cen.eu:en16931:2017#conformant#urn:fdc:peppol.eu:2017:poacc:billing:international:aunz:3.0</cbc:CustomizationID>
+  <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
+  <cbc:ID>43992928</cbc:ID>
+  <cbc:IssueDate>2023-03-31</cbc:IssueDate>
+  <cbc:DueDate>2023-04-04</cbc:DueDate>
+  <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+  <cbc:DocumentCurrencyCode>AUD</cbc:DocumentCurrencyCode>
+  <cbc:BuyerReference>n/a</cbc:BuyerReference>
+  
+
+
+
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cbc:EndpointID schemeID="0151">22410047658</cbc:EndpointID>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="0151">22410047658</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name>Lilac</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:StreetName>174Leffler Circle</cbc:StreetName>
+        <cbc:CityName>Stokesmouth</cbc:CityName>
+        <cbc:PostalZone>5572</cbc:PostalZone>
+        <cbc:CountrySubentity>Queensland</cbc:CountrySubentity>
+        <cac:Country>
+          <cbc:IdentificationCode>AU</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>22410047658</cbc:CompanyID>
+        <cac:TaxScheme>
+          <cbc:ID>GST</cbc:ID>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Greenfelder-Klein Group</cbc:RegistrationName>
+        <cbc:CompanyID schemeID="0151">22410047658</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Name>Henry Greenfelder</cbc:Name>
+        <cbc:Telephone>0408 82 10 00</cbc:Telephone>
+        <cbc:ElectronicMail>Henry.Greenfelder@Greenfelder-Klein.com.au</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cbc:EndpointID schemeID="0151">12773487225</cbc:EndpointID>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="0151">12773487225</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name>knapp</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:StreetName>Clark Island</cbc:StreetName>
+        <cbc:CityName>Summerport</cbc:CityName>
+        <cbc:PostalZone>5683</cbc:PostalZone>
+        <cbc:CountrySubentity>Northern Territory</cbc:CountrySubentity>
+        <cac:Country>
+          <cbc:IdentificationCode>AU</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID>12773487225</cbc:CompanyID>
+        <cac:TaxScheme>
+          <cbc:ID>GST</cbc:ID>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Morissette-Schroeder Group</cbc:RegistrationName>
+        <cbc:CompanyID schemeID="0151">12773487225</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Name>Poppy Beahan</cbc:Name>
+        <cbc:Telephone>0443535668</cbc:Telephone>
+        <cbc:ElectronicMail>Poppy.Beahan@Morissette-Schroeder.com.au</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+
+
+
+
+
+  <cac:PayeeParty>
+    <cac:PartyIdentification>
+      <cbc:ID schemeID="0151">05264613756</cbc:ID>
+    </cac:PartyIdentification>
+    <cac:PartyName>
+      <cbc:Name>Georgia Tremblay</cbc:Name>
+    </cac:PartyName>
+    <cac:PartyLegalEntity>
+      <cbc:CompanyID schemeID="0151">05264613756</cbc:CompanyID>
+    </cac:PartyLegalEntity>
+  </cac:PayeeParty>
+
+
+
+  <cac:TaxRepresentativeParty>
+    <cac:PartyName>
+      <cbc:Name>Ava Hamilton</cbc:Name>
+    </cac:PartyName>
+    <cac:PostalAddress>
+      <cbc:StreetName>Kayla Terrace</cbc:StreetName>
+      <cbc:AdditionalStreetName>Apt. 625</cbc:AdditionalStreetName>
+      <cbc:CityName>East Johnton</cbc:CityName>
+      <cbc:PostalZone>6362</cbc:PostalZone>
+      <cbc:CountrySubentity>Queensland</cbc:CountrySubentity>
+      <cac:Country>
+        <cbc:IdentificationCode>AU</cbc:IdentificationCode>
+      </cac:Country>
+    </cac:PostalAddress>
+    <cac:PartyTaxScheme>
+      <cbc:CompanyID>05264613756</cbc:CompanyID>
+      <cac:TaxScheme>
+        <cbc:ID>GST</cbc:ID>
+      </cac:TaxScheme>
+    </cac:PartyTaxScheme>
+  </cac:TaxRepresentativeParty>
+
+
+
+
+  <cac:Delivery>
+    <cac:DeliveryLocation>
+      <cac:Address>
+        <cbc:AdditionalStreetName>277Clark Island</cbc:AdditionalStreetName>
+        <cbc:CityName>Summerport</cbc:CityName>
+        <cbc:PostalZone>5683</cbc:PostalZone>
+        <cac:Country>
+          <cbc:IdentificationCode>AU</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:DeliveryLocation>
+    <cac:DeliveryParty>
+      <cac:PartyName>
+        <cbc:Name>Morissette-Schroeder Group</cbc:Name>
+      </cac:PartyName>
+    </cac:DeliveryParty>
+  </cac:Delivery>
+
+
+  <cac:PaymentMeans>
+    <cbc:PaymentMeansCode name="Credit transfer">30</cbc:PaymentMeansCode>
+    <cbc:PaymentID>000167212100</cbc:PaymentID>
+    <cac:PayeeFinancialAccount>
+      <cbc:ID>ACCOUNTNUMBER</cbc:ID>
+      <cbc:Name>ACCOUNTNAME</cbc:Name>
+      <cac:FinancialInstitutionBranch>
+        <cbc:ID>BSB</cbc:ID>
+      </cac:FinancialInstitutionBranch>
+    </cac:PayeeFinancialAccount>
+  </cac:PaymentMeans>
+  <cac:PaymentTerms>
+    <cbc:Note>30 days from invoice date</cbc:Note>
+  </cac:PaymentTerms>
+
+
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="AUD">1564.14</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="AUD">15641.40</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="AUD">1564.14</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>10</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>GST</cbc:ID>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+
+  
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="AUD">15641.40</cbc:LineExtensionAmount>
+    <cbc:TaxExclusiveAmount currencyID="AUD">15641.40</cbc:TaxExclusiveAmount>
+    <cbc:TaxInclusiveAmount currencyID="AUD">17205.54</cbc:TaxInclusiveAmount>
+    <cbc:AllowanceTotalAmount currencyID="AUD">0.00</cbc:AllowanceTotalAmount>
+    <cbc:ChargeTotalAmount currencyID="AUD">0.00</cbc:ChargeTotalAmount>
+    <cbc:PrepaidAmount currencyID="AUD">0.00</cbc:PrepaidAmount>
+    <cbc:PayableAmount currencyID="AUD">17205.54</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+
+  
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:Note>StellarDeal411663</cbc:Note>
+    <cbc:InvoicedQuantity unitCode="E99">1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="AUD">15641.40</cbc:LineExtensionAmount>
+    <cac:Item>
+      <cbc:Description>Bronze Intelligent Bronze Wallet with ivory</cbc:Description>
+      <cbc:Name>Intelligent Bronze Wallet</cbc:Name>
+      <cac:SellersItemIdentification>
+        <cbc:ID>188077</cbc:ID>
+      </cac:SellersItemIdentification>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID>S</cbc:ID>
+        <cbc:Percent>10</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>GST</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="AUD">15641.40</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

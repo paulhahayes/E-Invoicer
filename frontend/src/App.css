@@ -1,0 +1,240 @@
+.App {
+  text-align: center;
+}
+
+:root {
+  --custom-purple: #a31af8;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App {
+  background-color: white;
+}
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Auth-form {
+  width: 420px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line-left,
+.line-right {
+  width: 40%;
+  height: 1px;
+  background-color: #d9d9d9;
+  margin-top: 10px;
+}
+
+.line-text {
+  font-size: 14px;
+  color: #8c8c8c;
+  font-weight: 100;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  font-weight: 600;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+input::placeholder {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+input {
+  border-radius: 3px !important;
+}
+
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #8c8c8c !important;
+}
+
+.switch-page {
+  border-color: #d9d9d9;
+  background-color: white;
+  padding: 3%;
+  width: 100%;
+  border-width: 1px 1px 1px 1px;
+  font-size: 14px;
+  border-style: solid;
+  margin-bottom: 5%;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.switch-page:hover {
+  box-shadow: none;
+  border-color: #a31af8;
+  color: #a31af8;
+}
+
+.switch-btn-child {
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.switch-btn-child:hover {
+  color: black;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    68,
+    71,
+    73,
+    0.3
+  ); /* Change the background color and opacity as desired */
+  z-index: 999; /* Set the z-index high enough to make the overlay appear on top of other elements */
+}
+
+.main-btn {
+  background-color: #a31af8;
+  padding: 3%;
+  width: 100%;
+  border-width: 1px 1px 1px 1px;
+  font-size: 14px;
+  border-style: solid;
+  margin-bottom: 5%;
+  color: white;
+  font-weight: bolder;
+  border-radius: 3px;
+  margin-top: 3%;
+}
+
+.link-to-another-page {
+  color: black;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.link-to-another-page:hover {
+  color: #790bbd;
+}
+
+.main-btn:hover {
+  box-shadow: none;
+  background-color: #790bbd;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.space-x-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.editor {
+  margin-top: 40px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.invoices-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.invoices-table th,
+.invoices-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.invoices-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #333;
+}

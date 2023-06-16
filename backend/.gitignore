@@ -1,0 +1,10 @@
+node_modules
+build
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.env
+
+e-invoice-api-4da48-firebase-adminsdk-819g4-8d22aa9960.json
+e-invoice-api-test-firebase-adminsdk-ekbhf-a5301a2491.json

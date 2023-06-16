@@ -1,0 +1,43 @@
+name: Node.js CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        #with:
+          #path: backend
+
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+
+      - name: Install dependencies
+        working-directory: ./backend
+        run: |
+          npm install
+
+      - name: Run lint
+        working-directory: ./backend
+        run: npm run lint
+
+      - name: Run tests
+        working-directory: ./backend
+        env:
+          SERVER_LOG: ${{ github.workspace }}/server.log
+        run: |
+          npm run coverage >& $SERVER_LOG &
+          sleep 3
+          npm run test || (cat $SERVER_LOG && exit 1)
+          kill -SIGINT %1
+          sleep 2
+          cat $SERVER_LOG

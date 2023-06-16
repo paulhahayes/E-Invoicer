@@ -1,0 +1,5 @@
+src
+node_modules
+.git
+/build/echo.test*
+/build/function/*test.js

@@ -1,0 +1,438 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    }
+  },
+  "Invoice": {
+    "_attributes": {
+      "xmlns": "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2",
+      "xmlns:cac": "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+      "xmlns:cbc": "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+    },
+    "cbc:CustomizationID": {
+      "_text": "urn:cen.eu:en16931:2017#conformant#urn:fdc:peppol.eu:2017:poacc:billing:international:aunz:3.0"
+    },
+    "cbc:ProfileID": {
+      "_text": "urn:fdc:peppol.eu:2017:poacc:billing:01:1.0"
+    },
+    "cbc:ID": {
+      "_text": "43992928"
+    },
+    "cbc:IssueDate": {
+      "_text": "2023-03-31"
+    },
+    "cbc:DueDate": {
+      "_text": "2023-04-04"
+    },
+    "cbc:InvoiceTypeCode": {
+      "_text": "380"
+    },
+    "cbc:DocumentCurrencyCode": {
+      "_text": "AUD"
+    },
+    "cbc:BuyerReference": {
+      "_text": "n/a"
+    },
+    "cac:AccountingSupplierParty": {
+      "cac:Party": {
+        "cbc:EndpointID": {
+          "_attributes": {
+            "schemeID": "0151"
+          },
+          "_text": "22410047658"
+        },
+        "cac:PartyIdentification": {
+          "cbc:ID": {
+            "_attributes": {
+              "schemeID": "0151"
+            },
+            "_text": "22410047658"
+          }
+        },
+        "cac:PartyName": {
+          "cbc:Name": {
+            "_text": "tester2"
+          }
+        },
+        "cac:PostalAddress": {
+          "cbc:StreetName": {
+            "_text": "174Leffler Circle"
+          },
+          "cbc:CityName": {
+            "_text": "Stokesmouth"
+          },
+          "cbc:PostalZone": {
+            "_text": "5572"
+          },
+          "cbc:CountrySubentity": {
+            "_text": "Queensland"
+          },
+          "cac:Country": {
+            "cbc:IdentificationCode": {
+              "_text": "AU"
+            }
+          }
+        },
+        "cac:PartyTaxScheme": {
+          "cbc:CompanyID": {
+            "_text": "22410047658"
+          },
+          "cac:TaxScheme": {
+            "cbc:ID": {
+              "_text": "GST"
+            }
+          }
+        },
+        "cac:PartyLegalEntity": {
+          "cbc:RegistrationName": {
+            "_text": "Greenfelder-Klein Group"
+          },
+          "cbc:CompanyID": {
+            "_attributes": {
+              "schemeID": "0151"
+            },
+            "_text": "22410047658"
+          }
+        },
+        "cac:Contact": {
+          "cbc:Name": {
+            "_text": "Henry Greenfelder"
+          },
+          "cbc:Telephone": {
+            "_text": "0408 82 10 00"
+          },
+          "cbc:ElectronicMail": {
+            "_text": "Henry.Greenfelder@Greenfelder-Klein.com.au"
+          }
+        }
+      }
+    },
+    "cac:AccountingCustomerParty": {
+      "cac:Party": {
+        "cbc:EndpointID": {
+          "_attributes": {
+            "schemeID": "0151"
+          },
+          "_text": "12773487225"
+        },
+        "cac:PartyIdentification": {
+          "cbc:ID": {
+            "_attributes": {
+              "schemeID": "0151"
+            },
+            "_text": "12773487225"
+          }
+        },
+        "cac:PartyName": {
+          "cbc:Name": {
+            "_text": "Lilac"
+          }
+        },
+        "cac:PostalAddress": {
+          "cbc:StreetName": {
+            "_text": "Clark Island"
+          },
+          "cbc:CityName": {
+            "_text": "Summerport"
+          },
+          "cbc:PostalZone": {
+            "_text": "5683"
+          },
+          "cbc:CountrySubentity": {
+            "_text": "Northern Territory"
+          },
+          "cac:Country": {
+            "cbc:IdentificationCode": {
+              "_text": "AU"
+            }
+          }
+        },
+        "cac:PartyTaxScheme": {
+          "cbc:CompanyID": {
+            "_text": "12773487225"
+          },
+          "cac:TaxScheme": {
+            "cbc:ID": {
+              "_text": "GST"
+            }
+          }
+        },
+        "cac:PartyLegalEntity": {
+          "cbc:RegistrationName": {
+            "_text": "Morissette-Schroeder Group"
+          },
+          "cbc:CompanyID": {
+            "_attributes": {
+              "schemeID": "0151"
+            },
+            "_text": "12773487225"
+          }
+        },
+        "cac:Contact": {
+          "cbc:Name": {
+            "_text": "Poppy Beahan"
+          },
+          "cbc:Telephone": {
+            "_text": "0443535668"
+          },
+          "cbc:ElectronicMail": {
+            "_text": "Poppy.Beahan@Morissette-Schroeder.com.au"
+          }
+        }
+      }
+    },
+    "cac:PayeeParty": {
+      "cac:PartyIdentification": {
+        "cbc:ID": {
+          "_attributes": {
+            "schemeID": "0151"
+          },
+          "_text": "05264613756"
+        }
+      },
+      "cac:PartyName": {
+        "cbc:Name": {
+          "_text": "Georgia Tremblay"
+        }
+      },
+      "cac:PartyLegalEntity": {
+        "cbc:CompanyID": {
+          "_attributes": {
+            "schemeID": "0151"
+          },
+          "_text": "05264613756"
+        }
+      }
+    },
+    "cac:TaxRepresentativeParty": {
+      "cac:PartyName": {
+        "cbc:Name": {
+          "_text": "Ava Hamilton"
+        }
+      },
+      "cac:PostalAddress": {
+        "cbc:StreetName": {
+          "_text": "Kayla Terrace"
+        },
+        "cbc:AdditionalStreetName": {
+          "_text": "Apt. 625"
+        },
+        "cbc:CityName": {
+          "_text": "East Johnton"
+        },
+        "cbc:PostalZone": {
+          "_text": "6362"
+        },
+        "cbc:CountrySubentity": {
+          "_text": "Queensland"
+        },
+        "cac:Country": {
+          "cbc:IdentificationCode": {
+            "_text": "AU"
+          }
+        }
+      },
+      "cac:PartyTaxScheme": {
+        "cbc:CompanyID": {
+          "_text": "05264613756"
+        },
+        "cac:TaxScheme": {
+          "cbc:ID": {
+            "_text": "GST"
+          }
+        }
+      }
+    },
+    "cac:Delivery": {
+      "cac:DeliveryLocation": {
+        "cac:Address": {
+          "cbc:AdditionalStreetName": {
+            "_text": "277Clark Island"
+          },
+          "cbc:CityName": {
+            "_text": "Summerport"
+          },
+          "cbc:PostalZone": {
+            "_text": "5683"
+          },
+          "cac:Country": {
+            "cbc:IdentificationCode": {
+              "_text": "AU"
+            }
+          }
+        }
+      },
+      "cac:DeliveryParty": {
+        "cac:PartyName": {
+          "cbc:Name": {
+            "_text": "Morissette-Schroeder Group"
+          }
+        }
+      }
+    },
+    "cac:PaymentMeans": {
+      "cbc:PaymentMeansCode": {
+        "_attributes": {
+          "name": "Credit transfer"
+        },
+        "_text": "30"
+      },
+      "cbc:PaymentID": {
+        "_text": "000167212100"
+      },
+      "cac:PayeeFinancialAccount": {
+        "cbc:ID": {
+          "_text": "ACCOUNTNUMBER"
+        },
+        "cbc:Name": {
+          "_text": "ACCOUNTNAME"
+        },
+        "cac:FinancialInstitutionBranch": {
+          "cbc:ID": {
+            "_text": "BSB"
+          }
+        }
+      }
+    },
+    "cac:PaymentTerms": {
+      "cbc:Note": {
+        "_text": "30 days from invoice date"
+      }
+    },
+    "cac:TaxTotal": {
+      "cbc:TaxAmount": {
+        "_attributes": {
+          "currencyID": "AUD"
+        },
+        "_text": "1564.14"
+      },
+      "cac:TaxSubtotal": {
+        "cbc:TaxableAmount": {
+          "_attributes": {
+            "currencyID": "AUD"
+          },
+          "_text": "15641.40"
+        },
+        "cbc:TaxAmount": {
+          "_attributes": {
+            "currencyID": "AUD"
+          },
+          "_text": "1564.14"
+        },
+        "cac:TaxCategory": {
+          "cbc:ID": {
+            "_text": "S"
+          },
+          "cbc:Percent": {
+            "_text": "10"
+          },
+          "cac:TaxScheme": {
+            "cbc:ID": {
+              "_text": "GST"
+            }
+          }
+        }
+      }
+    },
+    "cac:LegalMonetaryTotal": {
+      "cbc:LineExtensionAmount": {
+        "_attributes": {
+          "currencyID": "AUD"
+        },
+        "_text": "15641.40"
+      },
+      "cbc:TaxExclusiveAmount": {
+        "_attributes": {
+          "currencyID": "AUD"
+        },
+        "_text": "15641.40"
+      },
+      "cbc:TaxInclusiveAmount": {
+        "_attributes": {
+          "currencyID": "AUD"
+        },
+        "_text": "17205.54"
+      },
+      "cbc:AllowanceTotalAmount": {
+        "_attributes": {
+          "currencyID": "AUD"
+        },
+        "_text": "0.00"
+      },
+      "cbc:ChargeTotalAmount": {
+        "_attributes": {
+          "currencyID": "AUD"
+        },
+        "_text": "0.00"
+      },
+      "cbc:PrepaidAmount": {
+        "_attributes": {
+          "currencyID": "AUD"
+        },
+        "_text": "0.00"
+      },
+      "cbc:PayableAmount": {
+        "_attributes": {
+          "currencyID": "AUD"
+        },
+        "_text": "17205.54"
+      }
+    },
+    "cac:InvoiceLine": {
+      "cbc:ID": {
+        "_text": "1"
+      },
+      "cbc:Note": {
+        "_text": "StellarDeal411663"
+      },
+      "cbc:InvoicedQuantity": {
+        "_attributes": {
+          "unitCode": "E99"
+        },
+        "_text": "1"
+      },
+      "cbc:LineExtensionAmount": {
+        "_attributes": {
+          "currencyID": "AUD"
+        },
+        "_text": "15641.40"
+      },
+      "cac:Item": {
+        "cbc:Description": {
+          "_text": "Bronze Intelligent Bronze Wallet with ivory"
+        },
+        "cbc:Name": {
+          "_text": "Intelligent Bronze Wallet"
+        },
+        "cac:SellersItemIdentification": {
+          "cbc:ID": {
+            "_text": "188077"
+          }
+        },
+        "cac:ClassifiedTaxCategory": {
+          "cbc:ID": {
+            "_text": "S"
+          },
+          "cbc:Percent": {
+            "_text": "10"
+          },
+          "cac:TaxScheme": {
+            "cbc:ID": {
+              "_text": "GST"
+            }
+          }
+        }
+      },
+      "cac:Price": {
+        "cbc:PriceAmount": {
+          "_attributes": {
+            "currencyID": "AUD"
+          },
+          "_text": "15641.40"
+        }
+      }
+    }
+  }
+}

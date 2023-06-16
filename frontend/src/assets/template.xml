@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+    xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+    xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#conformant#urn:fdc:peppol.eu:2017:poacc:billing:international:aunz:3.0</cbc:CustomizationID>
+
+    <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
+    <cbc:ID>Invoice01</cbc:ID>
+    <cbc:IssueDate>2019-07-29</cbc:IssueDate>
+    <cbc:DueDate>2019-08-30</cbc:DueDate>
+    <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+    <cbc:Note>Tax invoice</cbc:Note>
+    <cbc:DocumentCurrencyCode>AUD</cbc:DocumentCurrencyCode>
+    <cbc:AccountingCost>4025:123:4343</cbc:AccountingCost>
+    <cbc:BuyerReference>0150abc</cbc:BuyerReference>
+    <cac:InvoicePeriod>
+       <cbc:StartDate>2019-06-01</cbc:StartDate>
+       <cbc:EndDate>2019-07-30</cbc:EndDate>
+    </cac:InvoicePeriod>
+    <cac:OrderReference>
+       <cbc:ID>PurchaseOrderReference</cbc:ID>
+       <cbc:SalesOrderID>12345678</cbc:SalesOrderID>
+    </cac:OrderReference>
+    <cac:BillingReference>
+       <cac:InvoiceDocumentReference>
+           <cbc:ID>PrecedingInvoiceReference</cbc:ID>
+           <cbc:IssueDate>2019-05-30</cbc:IssueDate>
+       </cac:InvoiceDocumentReference>
+    </cac:BillingReference>
+    <cac:DespatchDocumentReference>
+       <cbc:ID>DDR-REF</cbc:ID>
+    </cac:DespatchDocumentReference>
+    <cac:ReceiptDocumentReference>
+       <cbc:ID>RD-REF</cbc:ID>
+    </cac:ReceiptDocumentReference>
+    <cac:OriginatorDocumentReference>
+       <cbc:ID>OD-REF</cbc:ID>
+    </cac:OriginatorDocumentReference>
+    <cac:ContractDocumentReference>
+       <cbc:ID>CD-REF</cbc:ID>
+    </cac:ContractDocumentReference>

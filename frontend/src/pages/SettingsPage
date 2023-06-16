@@ -1,0 +1,55 @@
+import React from 'react'
+// import PropTypes from 'prop-types'
+import { useLocation } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+
+
+const SettingsPage = () => {
+  const location = useLocation()
+  const userDetails = location.state.userDetails  
+
+  // Rest of the component
+
+  return (
+    <div className='flex items-center justify-center min-h-screen'>
+      <div className='bg-white shadow-md rounded-lg p-6 w-96'>
+        <h1 className='text-2xl font-semibold mb-4'>User Profile</h1>
+        <div className='mb-3'>
+          <span className='font-semibold'>User ID:</span>{' '}
+          {userDetails.userId}
+        </div>
+        <div className='mb-3'>
+          <span className='font-semibold'>Name:</span>{' '}
+          {userDetails.name}
+        </div>
+        <div className='mb-3'>
+          <span className='font-semibold'>Email:</span>{' '}
+          {userDetails.email}
+        </div>
+        <div className='mb-3'>
+          <span className='font-semibold'>Company:</span>{' '}
+          {userDetails.companyName}
+        </div>
+        <NavLink
+          className='no-underline text-main-table dark:text-white hover:underline hover:text-main-table'
+          to='/logout'
+        >
+          Logout
+        </NavLink>
+      </div>
+    </div>
+  )
+}
+
+export default SettingsPage
+
+// ProfilePage.propTypes = {
+//   userDetails: PropTypes.shape({
+//     userId: PropTypes.string.isRequired,
+//     name: PropTypes.string.isRequired,
+//     email: PropTypes.string.isRequired,
+//     companyName: PropTypes.string.isRequired,
+//     tokens: PropTypes.arrayOf(PropTypes.string).isRequired,
+//     hash: PropTypes.string.isRequired,
+//   }).isRequired,
+// }
